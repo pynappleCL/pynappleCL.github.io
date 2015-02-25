@@ -24,6 +24,12 @@ jQuery(function($) {
             scrollTo('#templatemo-top');
         });
 
+        // scroll to contact [id=elemid]
+        $('[id=btn-scroll-to-contact]').click(function(e){
+            e.preventDefault();
+            scrollTo('#templatemo-contact');
+        });
+
         // scroll to specific id when click on menu
         $('.templatemo-top-menu .navbar-nav a').click(function(e){
             e.preventDefault(); 
