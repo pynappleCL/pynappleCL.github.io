@@ -542,6 +542,17 @@ a:hover .social-icon-linkedin {
     background: url('../images/linkedin-icon-over.png') no-repeat;
 }
 
+.social-icon-github {
+    background: url('../images/github-icon.png') no-repeat;
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
+a:hover .social-icon-github {
+    background: url('../images/github-icon-over.png') no-repeat;
+}
+
 ul.templatemo-project-gallery  li  a img:hover {
     border: 3px solid #fee436;
 }
